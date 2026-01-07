@@ -9,7 +9,6 @@ function displayPosts(posts) {
   postList.innerHTML = '';
 
   posts.forEach((post) => {
-    // Create elements
     const li = document.createElement('li');
     const h1 = document.createElement('h1');
     const p = document.createElement('p');
